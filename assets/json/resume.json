@@ -21,11 +21,11 @@
       "endDate": "Oct. 2024",
       "summary": "Project lead of developing a deep-water sonde with use of both gas and water sensors
                   Workareas: [
-                  - CAD - 3D and 2D
-                  - PCB-design
-                  - Construction and testing of prototype
-                  - Internal and external communication
-                  - Timemanagement"],
+                  "- CAD - 3D and 2D",
+                  "- PCB-design",
+                  "- Construction and testing of prototype",
+                  "- Internal and external communication",
+                  "- Timemanagement"],
     },
         {
       "name": "C&D Foods",
@@ -50,11 +50,11 @@
       "position": "Agricultural Worker",
       "startDate": "2012",
       "endDate": "2020",
-      "summary": "Workareas: [
-                  - Machinery work, repair, and maintenance
-                  - Animal care
-                  - Repair and maintenance of buildings and fixtures
-                  - Field work"],                  
+      "Workareas": [
+                  "- Machinery work, repair, and maintenance",
+                  "- Animal care",
+                  "- Repair and maintenance of buildings and fixtures",
+                  "- Field work"]                  
     },
     
   ],
@@ -135,7 +135,7 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Mechatronics",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Automation",
