@@ -1,12 +1,11 @@
 ---
-layout: page
+layout: cv
+permalink: /cv/
 title: CV
-permalink:
-description: This is my CV
-nav: false
-nav_order: 7
-display_categories: [work, fun]
-horizontal: false
+nav: true
+nav_order: 3
+cv_pdf: CV_Asbjørn_Mortensen_ENG_11_10.pdf
+toc:
+  sidebar: left
 ---
 
-**In preparation. Check my LinkedIn profile for my CV: https://www.linkedin.com/in/asmo1999/**
