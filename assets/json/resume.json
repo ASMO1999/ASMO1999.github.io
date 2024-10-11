@@ -20,12 +20,12 @@
       "startDate": "Apr. 2024",
       "endDate": "Oct. 2024",
       "summary": "Project lead of developing a deep-water sonde with use of both gas and water sensors
-                  Workareas:
+                  Workareas: [
                   - CAD - 3D and 2D
                   - PCB-design
                   - Construction and testing of prototype
                   - Internal and external communication
-                  - Timemanagement",
+                  - Timemanagement"],
     },
         {
       "name": "C&D Foods",
@@ -50,11 +50,11 @@
       "position": "Agricultural Worker",
       "startDate": "2012",
       "endDate": "2020",
-      "summary": "Workareas:
+      "summary": "Workareas: [
                   - Machinery work, repair, and maintenance
                   - Animal care
                   - Repair and maintenance of buildings and fixtures
-                  - Field work",                  
+                  - Field work"],                  
     },
     
   ],
@@ -70,11 +70,6 @@
       "specialty": ["Integrated Product and Production Development and business"]
     }
   ],
-    Begynder: Beginner
-Lidt øvet: Slightly experienced
-Øvet: Experienced
-Meget øvet: Very experienced
-Expert: Expert
   "IT-skills": [
     {
       "name": "C++ programming",
