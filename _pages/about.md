@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Mechanical Engineering and 
+subtitle: Mechanical Engineering and football enthusiast
 
 profile:
   align: right
