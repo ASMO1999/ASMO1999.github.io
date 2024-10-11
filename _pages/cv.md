@@ -9,3 +9,5 @@ description: This is a description of the page. You can modify it in '_pages/cv.
 toc:
   sidebar: left
 ---
+
+**In preparation. Check my LinkedIn profile for my CV: https://www.linkedin.com/in/asmo1999/**
