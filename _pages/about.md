@@ -16,4 +16,4 @@ Hi, my name is Asbjørn Mortensen. I have a diploma in Mechanical Engineering wi
 
 My interest in engineering stems from growing up on a farm, where I've been tinkering with and repairing machinery and buildings since childhood. In my spare time, I enjoy watching or playing football, spending time with family and friends, or helping on the farm, which often involves repairing various machines.
 
-This website is an ongoing project, and changes and updates will be made continuously
+This website is an ongoing project started the 11th October, and changes and updates will be made continuously
