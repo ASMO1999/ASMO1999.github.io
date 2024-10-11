@@ -1,12 +1,12 @@
 ---
 layout: page
-permalink:
 title: CV
+permalink:
+description: This is my CV
 nav: true
-nav_order: 5
-cv_pdf:
-description: This is my CV.
-sidebar: left
+nav_order: 3
+display_categories: [work, fun]
+horizontal: false
 ---
 
 **In preparation. Check my LinkedIn profile for my CV: https://www.linkedin.com/in/asmo1999/**
