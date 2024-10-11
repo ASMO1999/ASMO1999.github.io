@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Elective Courses
 description: This is a overview of the Elective Courses I Have Taken During My Education
 nav: false
-nav_order: 6
+nav_order: 3
 ---
 **6. Semester**
   - _Industrial_ Automation (https://kursuskatalog-legacy.au.dk/en/course/124981/MH6IAT-01-Industrial-Automation)
