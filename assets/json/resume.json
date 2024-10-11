@@ -18,17 +18,24 @@
       "name": "Department of Mechanical and Production Engineering - Mechatronics and Dynamics, Aarhus University",
       "position": "Academic Staff",
       "startDate": "Apr. 2024",
-      "endDate": "Oct. 2024",
-      "summary": "Project lead of developing a deep-water sonde with use of both gas and water sensors
-                  Workareas: [
-                  "- CAD - 3D and 2D",
-                  "- PCB-design",
-                  "- Construction and testing of prototype",
-                  "- Internal and external communication",
-                  "- Timemanagement"],
-    },
-        {
-      "name": "C&D Foods",
+  "endDate": "Oct. 2024",
+  "summary": "Project lead of developing a deep-water sonde with the use of both gas and water sensors.",
+  "workAreas": [
+    "- CAD - 3D and 2D",
+    "- PCB design",
+    "- Construction and testing of prototype",
+    "- Internal and external communication",
+    "- Time management"
+  ]
+},
+{
+  "name": "C&D Foods",
+  "position": "Production Worker",
+  "length": "1 and a half years between Aug. 2019 and Aug. 2022",
+  "summary": "1 year as a sabbatical year and two summers as a holiday substitute."
+},
+{
+  "name": "Kelsen Group A/S"
       "position": "Production Worker",
       "lenght": "1 and a half year between Aug. 2019 and Aug. 2022",
       "summary": "1 year as sabbatical year and two summers as holiday substitute,
