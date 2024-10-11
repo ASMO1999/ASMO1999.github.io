@@ -2,24 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Mechanical Engineering and 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: CV.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+    <p>Aarhus, Denmark</p>
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, my name is Asbjørn Mortensen. I have a diploma in Mechanical Engineering with specializations in Integrated Product and Production Development, as well as a business specialization. My areas of interest include mechatronics, automation, CAD design and documentation, manufacturing, and fabrication. I enjoy being part of a project from the early stages—identifying product needs, designing and testing solutions, to finally handing over the product to the customer. In addition to my business specialization, I worked as an academic researcher at Aarhus University, and later full-time for several months. During this time, I was responsible for designing, constructing, and testing a deep-water sonde using several gas sensors. This project was my first professional role in engineering, where I gained valuable experience in communication with internal and external partners.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My interest in engineering stems from growing up on a farm, where I've been tinkering with and repairing machinery and buildings since childhood. In my spare time, I enjoy watching or playing football, spending time with family and friends, or helping on the farm, which often involves repairing various machines.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+This website is an ongoing project, and changes and updates will be made continuously
