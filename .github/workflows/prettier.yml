@@ -24,7 +24,7 @@ jobs:
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
 
       - name: Prettier Check 🔎
-        id: prettier
+        id: prettier-check
         run: npx prettier . --check
 
       - name: Create diff 📝
@@ -37,7 +37,7 @@ jobs:
 
       - name: Upload html diff ⬆️
         id: artifact-upload
-        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
+        if: ${{ failure() && steps.prettier-check.conclusion == 'failure' }}
         uses: actions/upload-artifact@v4
         with:
           name: HTML Diff
@@ -45,7 +45,7 @@ jobs:
           retention-days: 7
 
       - name: Dispatch information to repository 🗣️
-        if: ${{ failure() && steps.prettier.conclusion == 'failure' && github.event_name == 'pull_request' }}
+        if: ${{ failure() && steps.prettier-check.conclusion == 'failure' && github.event_name == 'pull_request' }}
         uses: peter-evans/repository-dispatch@v2
         with:
           event-type: prettier-failed-on-pr
@@ -71,6 +71,10 @@ jobs:
         run: |
           gem install bundler
           bundle install
+
+      # Format files with Prettier before building with Jekyll
+      - name: Format with Prettier ✨
+        run: npx prettier . --write
 
       # Build Jekyll Site 🏗️
       - name: Build with Jekyll 🏗️
