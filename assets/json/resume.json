@@ -1,125 +1,78 @@
 {
   "basics": {
-    "name": "Asbjørn Mortensen",
+    "name": "Jakob Humelebæk Lahn",
     "label": "Mechanical engineer",
     "image": "",
-    "email": "fredensborg.mortensen378@gmail.com",
-    "LinkedIn": "https://www.linkedin.com/in/asmo1999/",
-    "url": "https://asmo1999.github.io/",
-    "summary": "Danish man with a huge passion for technology and football",
+    "email": "Lahn92+cv@gmail.com",
+    "url": "https://lahn92.github.io",
+    "summary": "bla bla bla bla",
     "location": {
-      "postalCode": "8000 C",
-      "city": "Aarhus",
-      "countryCode": "DK",
-      "region": "Jutland"
-    }
+      "region": "Midtjylland",
+      "countryCode": "DK"
+    },
+    "profiles": [
+      {
+      }
+    ]
   },
   "work": [
     {
-      "name": "Department of Mechanical and Production Engineering - Mechatronics and Dynamics, Aarhus University",
-      "position": "Academic Staff",
-      "startDate": "Apr. 2024",
-      "endDate": "Oct. 2024",
-      "summary": "Project lead of developing a deep-water sonde with the use of both gas and water sensors.",
-      "workAreas": [
-        "- CAD - 3D and 2D",
-        "- PCB design",
-        "- Construction and testing of prototype",
-        "- Internal and external communication",
-        "- Time management"
-      ]
+      "name": "XLab, Aarhus university",
+      "position": "Maker space student assistent",
+      "url": "https://mpe.au.dk/om-instituttet/laboratorier-og-vaerksteder-paa-institut-for-mekanik-og-produktion/xlab-paa-institut-for-mekanik-og-produktion",
+      "startDate": "2022-02",
+      "endDate": "2024-07",
+      "summary": "Maintenance of machines, cleanup and organization, as well as instructing of users in Xlab",
+      "highlights": ["3D-Printing","Laser cutting","Teaching"]
     },
     {
-      "name": "C&D Foods",
-      "position": "Production Worker",
-      "length": "1 and a half years between Aug. 2019 and Aug. 2022",
-      "summary": "1 year as a sabbatical year and two summers as a holiday substitute."
+      "name": "Esvagt ",
+      "position": "Able seaman / Boatswain",
+      "url": "https://esvagt.com/",
+      "startDate": "2018-01",
+      "endDate": "2020-07",
+      "summary": "Working as a Able seaman aboard Esvagt Faraday, working in the offshore wind industry.",
+      "highlights": ["W2W","Maintenance","Crane operations","Boat operations"]
     },
     {
-      "name": "Kelsen Group A/S",
-      "position": "Production Worker",
-      "length": "1 and a half years between Aug. 2019 and Aug. 2022",
-      "summary": "1 year as a sabbatical year and two summers as a holiday substitute."
-    },
-    {
-      "name": "Kelsen Group A/S",
-      "position": "Industrial Baker",
-      "length": "6 months divided into two summer holidays in the period 2017 and 2018"
-    },
-    {
-      "name": "Faurholt Hundepension",
-      "position": "Employee",
-      "startDate": "Jul. 2014",
-      "endDate": "Jun. 2019"
-    },
-    {
-      "name": "Faurholtgård",
-      "position": "Agricultural Worker",
-      "startDate": "2012",
-      "endDate": "2020",
-      "workAreas": [
-        "- Machinery work, repair, and maintenance",
-        "- Animal care",
-        "- Repair and maintenance of buildings and fixtures",
-        "- Field work"
-      ]
+      "name": "Esvagt ",
+      "position": "Ordinary Seaman",
+      "url": "https://esvagt.com/",
+      "startDate": "2014-11",
+      "endDate": "2017-08",
+      "summary": "Working as a OS aboard Esvagt Faraday, working in the offshore wind industry.",
+      "highlights": ["W2W","Maintenance","Crane operations","Boat operations"]
     }
   ],
   "education": [
     {
-      "institution": "Aarhus University, Aarhus, Denmark",
-      "url": "https://international.au.dk/",
-      "area": "Bachelor of Engineering in Mechanical Engineering",
-      "studyType": "B.Eng",
-      "startDate": "Aug. 2020",
-      "endDate": "Jun. 2024",
-      "specialty": ["Integrated Product and Production Development and business"]
+      "institution": "Aarhus university",
+      "location": "Aarhus, Denmark",
+      "url": "https://www.uzh.ch/",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor of Engineering in Mechanical Engineering",
+      "startDate": "2021-01",
+      "endDate": "2024-07"
+    },
+    {
+      "institution": "Martec",
+      "location": "Fredrikshavn, Denmark",
+      "url": "https://www.martec.dk/",
+      "area": "Able seaman / Boatswain",
+      "startDate": "2017-08",
+      "endDate": "2018-07"
     }
   ],
-  "IT-skills": [
+  "certificates": [
     {
-      "name": "C++ programming",
-      "level": "Very experienced"
-    },
+      "name": "Ampelmann client operator PIC",
+      "date": "2018-06",
+      "issuer": "SOMA Bedrijfsopleidingen",
+      "icon": "fa-solid fa-location-dot"
+    }
+  ],
+  "skills": [
     {
-      "name": "LabView programming",
-      "level": "Experienced"
-    },
-    {
-      "name": "Python",
-      "level": "Slightly experienced"
-    },
-    {
-      "name": "Ladder programming",
-      "level": "Beginner"
-    },
-    {
-      "name": "Office package",
-      "level": "Expert"
-    },
-    {
-      "name": "FEA in SolidWorks",
-      "level": "Experienced"
-    },
-    {
-      "name": "FEA in ANSYS",
-      "level": "Slightly experienced"
-    },
-    {
-      "name": "CFD in OpenFoam",
-      "level": "Beginner"
-    },
-    {
-      "name": "CFD in SolidWorks",
-      "level": "Experienced"
-    },
-    {
-      "name": "3D modeling and 2D drawings in SolidWorks",
-      "level": "Very experienced"
-    },
-    {
-      "name": "3D modeling and 2D drawings in Onshape",
-      "level": "Experienced"
     }
   ],
   "languages": [
@@ -132,28 +85,18 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    },
-    {
-      "language": "German",
-      "fluency": "Proficient",
-      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Mechatronics",
+      "name": "fun",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Automation",
-        "Mechatronics",
-        "CAD Design",
-        "Project Management"
+        "funfun"
       ]
     }
   ],
   "references": [
-    {
-      "reference": "References can be provided on request"
-    }
+
   ]
 }
