@@ -1,0 +1,40 @@
+name: Build Jekyll Site
+
+on:
+  push:
+    branches:
+      - main  # Change to your default branch
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'  # Specify your Ruby version
+
+      - name: Install Bundler and Jekyll
+        run: |
+          gem install bundler
+          gem install jekyll
+
+      - name: Create virtual environment
+        run: |
+          python -m venv myenv
+          source myenv/bin/activate
+          pip install --upgrade pip
+          pip install jupyter  # Add other packages as needed
+
+      - name: Build Jekyll site
+        run: |
+          source myenv/bin/activate
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
