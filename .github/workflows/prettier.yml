@@ -1,4 +1,4 @@
-name: Prettier code formatter and Jekyll build
+name: Prettier code formatter
 
 on:
   pull_request:
@@ -12,73 +12,37 @@ on:
 
 jobs:
   check:
+    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
-
       - name: Install Prettier 💾
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
-
       - name: Prettier Check 🔎
-        id: prettier-check
+        id: prettier
         run: npx prettier . --check
-
       - name: Create diff 📝
+        # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
         if: ${{ failure() }}
         run: |
           npx prettier . --write
           git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
           npm install -g diff2html-cli
           diff2html -i file -s side -F diff.html -- diff.txt
-
       - name: Upload html diff ⬆️
         id: artifact-upload
-        if: ${{ failure() && steps.prettier-check.conclusion == 'failure' }}
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
         uses: actions/upload-artifact@v4
         with:
           name: HTML Diff
           path: diff.html
           retention-days: 7
-
       - name: Dispatch information to repository 🗣️
-        if: ${{ failure() && steps.prettier-check.conclusion == 'failure' && github.event_name == 'pull_request' }}
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' && github.event_name == 'pull_request' }}
         uses: peter-evans/repository-dispatch@v2
         with:
           event-type: prettier-failed-on-pr
           client-payload: '{"pr_number": "${{ github.event.number }}", "artifact_url": "${{ steps.artifact-upload.outputs.artifact-url }}", "run_id": "${{ github.run_id }}"}'
-
-      # Add Python setup and virtual environment creation
-      - name: Set up Python environment 🐍
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'
-
-      - name: Create virtual environment
-        run: python3 -m venv .venv
-
-      - name: Activate virtual environment and install Jupyter
-        run: |
-          source .venv/bin/activate
-          pip install --upgrade pip
-          pip install jupyter
-
-      # Install Ruby and Gems for Jekyll
-      - name: Install Ruby and Gems 💎
-        run: |
-          gem install bundler
-          bundle install
-
-      # Format files with Prettier before building with Jekyll
-      - name: Format with Prettier ✨
-        run: npx prettier . --write
-
-      # Build Jekyll Site 🏗️
-      - name: Build with Jekyll 🏗️
-        run: |
-          source .venv/bin/activate
-          export JEKYLL_ENV=production
-          bundle exec jekyll build
