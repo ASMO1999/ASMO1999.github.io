@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Elective Courses
 description: This is a overview of the Elective Courses I Have Taken During My Education
-nav: false
+nav: true
 nav_order: 4
 ---
 **6. Semester**
