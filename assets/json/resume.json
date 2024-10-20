@@ -20,9 +20,10 @@
       "position": "Academic Staff",
       "startDate": "Apr. 2024",
       "endDate": "Oct. 2024",
-      "summary": ["Project lead of developing a deep-water sonde with the use of both gas and water sensors. Workareas: CAD (3D and 2D), PCB-design, Construction and testing of prototype,", 
-        "Internal and external communication and ",
-        "Time management",
+      "summary": [
+        "Project lead of developing a deep-water sonde with the use of both gas and water sensors. Workareas: CAD (3D and 2D), PCB-design, Construction and testing of prototype",
+        "Internal and external communication",
+        "Time management"
       ]
     },
     {
@@ -50,9 +51,10 @@
       "position": "Agricultural Worker",
       "startDate": "2012",
       "endDate": "2020",
-      "summary": ["Workareas: Machinery work, repair, and maintenance, ",
-        "animal care, ",
-        "repair and maintenance of buildings and fixtures, ",
+      "summary": [
+        "Workareas: Machinery work, repair, and maintenance",
+        "animal care",
+        "repair and maintenance of buildings and fixtures",
         "and field work"
       ]
     }
@@ -65,7 +67,9 @@
       "studyType": "B.Eng",
       "startDate": "Aug. 2020",
       "endDate": "Jun. 2024",
-      "specialty": ["Integrated Product and Production Development and business"]
+      "specialty": [
+        "Integrated Product and Production Development and business"
+      ]
     },
     {
       "institution": "Ribe katedralskole",
@@ -74,7 +78,9 @@
       "studyType": "STX",
       "startDate": "Aug. 2016",
       "endDate": "Jun. 2019",
-      "specialty": ["Physics A, Maths A and Chemistry B"]
+      "specialty": [
+        "Physics A, Maths A and Chemistry B"
+      ]
     },
     {
       "institution": "Vojens gymnastik- & idrætsefterskole",
@@ -83,7 +89,9 @@
       "studyType": "-",
       "startDate": "Aug. 2015",
       "endDate": "Jun. 2016",
-      "specialty": ["Football line"]
+      "specialty": [
+        "Football line"
+      ]
     }
   ],
   "IT-skills": [
