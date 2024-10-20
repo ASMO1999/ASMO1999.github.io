@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: ASMO1999.github.io/sitemap.xml
+Sitemap: https://ASMO1999.github.io/sitemap.xml
