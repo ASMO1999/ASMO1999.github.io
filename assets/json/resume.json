@@ -20,8 +20,8 @@
       "position": "Academic Staff",
       "startDate": "Apr. 2024",
       "endDate": "Oct. 2024",
-      "summary": "Project lead of developing a deep-water sonde with the use of both gas and water sensors.",
-      "workAreas": [
+      "summary": ["Project lead of developing a deep-water sonde with the use of both gas and water sensors.",
+      "workAreas:",
         "- CAD - 3D and 2D",
         "- PCB design",
         "- Construction and testing of prototype",
@@ -32,19 +32,16 @@
     {
       "name": "C&D Foods",
       "position": "Production Worker",
-      "length": "1 and a half years between Aug. 2019 and Aug. 2022",
-      "summary": "1 year as a sabbatical year and two summers as a holiday substitute."
-    },
-    {
-      "name": "Kelsen Group A/S",
-      "position": "Production Worker",
-      "length": "1 and a half years between Aug. 2019 and Aug. 2022",
+      "startDate": "Aug. 2019",
+      "endDate": "Aug. 2022",
       "summary": "1 year as a sabbatical year and two summers as a holiday substitute."
     },
     {
       "name": "Kelsen Group A/S",
       "position": "Industrial Baker",
-      "length": "6 months divided into two summer holidays in the period 2017 and 2018"
+      "startDate": "2017",
+      "endDate": "2018",
+      "summary": "6 months divided into two summer holidays in the period 2017 and 2018"
     },
     {
       "name": "Faurholt Hundepension",
@@ -74,6 +71,24 @@
       "startDate": "Aug. 2020",
       "endDate": "Jun. 2024",
       "specialty": ["Integrated Product and Production Development and business"]
+    },
+    {
+      "institution": "Ribe katedralskole",
+      "url": "https://ribekatedralskole.dk/",
+      "area": "Higher General Examination Programme",
+      "studyType": "STX",
+      "startDate": "Aug. 2016",
+      "endDate": "Jun. 2019",
+      "specialty": ["Physics A, Maths A and Chemistry B"]
+    },
+    {
+      "institution": "Vojens gymnastik- & idrætsefterskole",
+      "url": "https://vgie.dk/",
+      "area": "10th grade",
+      "studyType": "-",
+      "startDate": "Aug. 2015",
+      "endDate": "Jun. 2016",
+      "specialty": ["Football line"]
     }
   ],
   "IT-skills": [
