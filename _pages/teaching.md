@@ -24,16 +24,16 @@ nav_order: 4
   - _Project_ (https://kursuskatalog-legacy.au.dk/en/course/125188/FIPRO1-05-Project)
 
 **Through my education, I have acquired skills in, among other things:**
-- Mechatronics
-- CAD-design – SolidWorks and Onshape
-- Technical drawings – SolidWorks and Onshape
-- Thermodynamics
-- C++
-- LabView
-- Python
-- Ladder programming
-- Technical documentation
-- Several ISO-standards and the machinery directive
-- FEA – SolidWorks and Ansys
-- CFD – SolidWorks and OpenFoam
-- Computervision – Open CV and LabView
+  - Mechatronics
+  - CAD-design – SolidWorks and Onshape
+  - Technical drawings – SolidWorks and Onshape
+  - Thermodynamics
+  - C++
+  - LabView
+  - Python
+  - Ladder programming
+  - Technical documentation
+  - Several ISO-standards and the machinery directive
+  - Advanced FEA – SolidWorks and Ansys
+  - CFD – SolidWorks and OpenFoam
+  - Computervision – Open CV and LabView
