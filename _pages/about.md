@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 title: About
 permalink: /
 subtitle: Mechanical Engineering and football enthusiast
