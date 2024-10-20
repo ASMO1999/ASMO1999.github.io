@@ -20,13 +20,9 @@
       "position": "Academic Staff",
       "startDate": "Apr. 2024",
       "endDate": "Oct. 2024",
-      "summary": ["Project lead of developing a deep-water sonde with the use of both gas and water sensors.",
-      "workAreas:",
-        "- CAD - 3D and 2D",
-        "- PCB design",
-        "- Construction and testing of prototype",
-        "- Internal and external communication",
-        "- Time management"
+      "summary": ["Project lead of developing a deep-water sonde with the use of both gas and water sensors. Workareas: CAD (3D and 2D), PCB-design, Construction and testing of prototype,", 
+        "Internal and external communication and ",
+        "Time management",
       ]
     },
     {
@@ -54,11 +50,11 @@
       "position": "Agricultural Worker",
       "startDate": "2012",
       "endDate": "2020",
-      "workAreas": [
-        "- Machinery work, repair, and maintenance",
-        "- Animal care",
-        "- Repair and maintenance of buildings and fixtures",
-        "- Field work"
+      "summary": [Workareas: 
+        "Machinery work, repair, and maintenance, ",
+        "animal care, ",
+        "repair and maintenance of buildings and fixtures, ",
+        "and field work"
       ]
     }
   ],
