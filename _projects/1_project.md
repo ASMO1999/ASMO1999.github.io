@@ -29,7 +29,7 @@ As an Administrative Staff member at Aarhus University, I was tasked with design
     </div>
 </div>
 <div class="caption">
-    Left: Full CAD overview of the probe. Right: Closer look at the top chamber design.
+    Left: Full CAD overview of the probe. Right: Closer look at the top chamber CAD-design.
 </div>
 
 The two endcaps were designed and manufactured by the institute's workshop. All communication was routed through two PCBs. The PCB located at the large chamber housed an Arduino microcontroller, which was responsible for controlling the probe. The probe's code, approximately 900 lines long, managed all aspects of the system, from sensor communication to external communication via SPI to Ethernet and ultimately optical fiber.
@@ -39,7 +39,7 @@ The two endcaps were designed and manufactured by the institute's workshop. All 
         {% include figure.liquid loading="eager" path="assets/img/20240930_150054.jpg" title="Closer look at the sandwich construction" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/TOPCAD.jpg" title="Bottom view of the small chamber, showing the PCB and cylinder for the actuator rod." class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/20240930_115814.jpg" title="Bottom view of the small chamber, showing the PCB and cylinder for the actuator rod." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
