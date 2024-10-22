@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: A growing collection of my projects both big and small. This page is still an ongoing project. More projects will be added to this page in the future.
 nav: true
