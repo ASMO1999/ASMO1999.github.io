@@ -2,7 +2,7 @@
 layout: page
 title: Bachelor project
 description: This is a showcase of my bachelorproject
-img: assets/img/3.jpg
+img: assets/img/bachelor/Samlet.png
 importance: 2
 category: study
 giscus_comments: true
