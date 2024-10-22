@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of my projects both big and small.
+description: A growing collection of my projects both big and small. This page is still an ongoing project. More projects will be added to this page in the future.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
