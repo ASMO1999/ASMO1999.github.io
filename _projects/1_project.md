@@ -4,7 +4,7 @@ title: Deep-water probe
 description: Product of my work as a member of Administrative Staff at Aarhus University
 img: assets/img/FULD1.jpg
 importance: 1
-category: Work
+category: work
 related_publications: false
 date: 2024-09-29
 ---
