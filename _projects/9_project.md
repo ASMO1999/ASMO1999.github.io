@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: Internship
 description: Internship at VARO Specialmaskiner A/S
 img: assets/img/prak/tag.png
 importance: 4
