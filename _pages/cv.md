@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
-cv_pdf: CV_GITHUB.pdf
+cv_pdf: CV_AM.pdf
 toc:
   sidebar: left
 ---
